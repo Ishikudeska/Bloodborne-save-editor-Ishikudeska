@@ -1,3 +1,6 @@
+#![allow(warnings)] // Some warnings are useless, so I just ignore them (for now)
+// Yes, I know this is bad practice, but I don't care for now, and my mental state at 3:30 AM is not going to change that
+
 // Prevents additional console window on Windows in release, DO NOT REMOVE!!
 #![cfg_attr(not(debug_assertions), windows_subsystem = "windows")]
 
